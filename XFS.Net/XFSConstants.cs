@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.InteropServices;
+
+namespace XFS.Net
+{
+    public static class XFSConstants
+    {
+        public const int STRUCTPACKSIZE = 1;
+
+        /// <summary>
+        /// xfs dll name
+        /// </summary>
+        public const string LIBNAME = "msxfs";
+
+        /// <summary>
+        /// charset of xfs function 
+        /// </summary>
+        public const CharSet CHARSET = CharSet.Ansi;
+        /// <summary>
+        /// CallingConvention of xfs function
+        /// </summary>
+        public const CallingConvention CALLINGCONVENTION = CallingConvention.Winapi;
+        public const int WFSDDESCRIPTION_LEN = 256;
+        public const int WFSDSYSSTATUS_LEN = 256;
+
+    }
+}
