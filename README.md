@@ -1,2 +1,2 @@
 # XFS.Net
-an wrapper for CEN/XFS(e.g WOSA)
+a wrapper for CEN/XFS(e.g WOSA)
