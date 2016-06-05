@@ -24,6 +24,6 @@ namespace XFS.Net
         public const CallingConvention CALLINGCONVENTION = CallingConvention.Winapi;
         public const int WFSDDESCRIPTION_LEN = 256;
         public const int WFSDSYSSTATUS_LEN = 256;
-
+        public const int WM_USER = 0x0400;
     }
 }
